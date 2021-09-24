@@ -1,6 +1,5 @@
 .profile {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 20px auto;
   width: 400px;
   background-color: rgb(190, 214, 135);
   border-radius: 10px;

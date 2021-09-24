@@ -1,9 +1,8 @@
 .statistics {
   width: 400px;
-  height: 150px;
   border-radius: 10px;
   background-color: rgb(38, 167, 96);
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .title {
   text-transform: uppercase;

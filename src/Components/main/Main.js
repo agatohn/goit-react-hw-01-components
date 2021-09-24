@@ -10,6 +10,7 @@ const Main = () => {
     <main>
       <Profile user={data.user} />
       <Statistics title="Upload stats" stats={data.statisticalData} />
+      <Statistics stats={data.statisticalData} />;
       <FriendList friends={data.friends} />
       <TransactionHistory items={data.items} />
     </main>
