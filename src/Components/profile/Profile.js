@@ -25,7 +25,13 @@ const Profile = ({ user }) => {
 };
 
 Profile.propTypes = {
-  user: PropTypes.shape({}),
+  user: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    avatar: PropTypes.string.isRequired,
+    stats: PropTypes.object.isRequired,
+  }),
 };
 
 export default Profile;

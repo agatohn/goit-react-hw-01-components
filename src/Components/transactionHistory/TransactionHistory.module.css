@@ -1,0 +1,14 @@
+.transactionHistory {
+  color: rgb(95, 95, 95);
+  font-size: 20px;
+  width: 500px;
+  border: 2px solid rgba(0, 0, 0, 0.479);
+  margin: 0 auto;
+  align-items: center;
+}
+
+.tr {
+  background: lightblue;
+  color: brown;
+  font-weight: 700;
+}
