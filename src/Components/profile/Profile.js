@@ -1,25 +1,31 @@
 import React from "react";
+import PropTypes from "prop-types";
+import styles from "./Profile.module.css";
 
 const Profile = ({ user }) => {
   return (
-    <div className="profile">
-      <div className="description">
-        <img src={user.avatar} alt={user.name} className="avatar" />
-        <p className="name">{user.name}</p>
-        <p className="tag">@{user.tag}</p>
-        <p className="location">{user.location}</p>
+    <div className={styles.profile}>
+      <div className={styles.description}>
+        <img src={user.avatar} alt={user.name} className={styles.avatar} />
+        <p className={styles.name}>{user.name}</p>
+        <p className={styles.tag}>@{user.tag}</p>
+        <p className={styles.location}>{user.location}</p>
       </div>
 
-      <ul className="stats">
+      <ul className={styles.stats}>
         {Object.entries(user.stats).map(([key, value]) => (
           <li key={key}>
-            <span className="label">{key}</span>
-            <span className="quantity">{value}</span>
+            <span className={styles.label}>{key}</span>
+            <span className={styles.quantity}>{value}</span>
           </li>
         ))}
       </ul>
     </div>
   );
+};
+
+Profile.propTypes = {
+  user: PropTypes.shape({}),
 };
 
 export default Profile;

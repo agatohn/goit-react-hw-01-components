@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const FriendListItem = ({ friend }) => {
   return (
@@ -13,6 +14,10 @@ const FriendListItem = ({ friend }) => {
       <p className="name">{friend.name}</p>
     </li>
   );
+};
+
+FriendListItem.propTypes = {
+  friend: PropTypes.object.isRequired,
 };
 
 export default FriendListItem;
