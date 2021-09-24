@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/agatohn.github.io/goit-react-hw-01-components/static/css/main.cbeed6b1.chunk.css",
+    "main.js": "/agatohn.github.io/goit-react-hw-01-components/static/js/main.50d21a23.chunk.js",
+    "main.js.map": "/agatohn.github.io/goit-react-hw-01-components/static/js/main.50d21a23.chunk.js.map",
+    "runtime-main.js": "/agatohn.github.io/goit-react-hw-01-components/static/js/runtime-main.e9678c12.js",
+    "runtime-main.js.map": "/agatohn.github.io/goit-react-hw-01-components/static/js/runtime-main.e9678c12.js.map",
+    "static/js/2.b11f0b78.chunk.js": "/agatohn.github.io/goit-react-hw-01-components/static/js/2.b11f0b78.chunk.js",
+    "static/js/2.b11f0b78.chunk.js.map": "/agatohn.github.io/goit-react-hw-01-components/static/js/2.b11f0b78.chunk.js.map",
+    "index.html": "/agatohn.github.io/goit-react-hw-01-components/index.html",
+    "static/css/main.cbeed6b1.chunk.css.map": "/agatohn.github.io/goit-react-hw-01-components/static/css/main.cbeed6b1.chunk.css.map",
+    "static/js/2.b11f0b78.chunk.js.LICENSE.txt": "/agatohn.github.io/goit-react-hw-01-components/static/js/2.b11f0b78.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9678c12.js",
+    "static/js/2.b11f0b78.chunk.js",
+    "static/css/main.cbeed6b1.chunk.css",
+    "static/js/main.50d21a23.chunk.js"
+  ]
+}
